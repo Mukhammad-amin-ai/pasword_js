@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    flex-direction: column;
+}
+
+.form_father {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.show {
+    position: absolute;
+    right: -30px;
+    bottom: 15.5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hid {
+    display: block;
+}
+
+.show_me {
+    display: none;
+}
+
+.look {
+    top: -21px;
+    right: -2px;
+    position: absolute;
+
+}
+
+.hidden {
+    top: -21px;
+    right: -2px;
+    position: absolute;
+
+}
+
+button {
+    position: absolute;
+    right: -10px;
+    bottom: 17px;
+    cursor: pointer;
+    background-color: transparent;
+    border: transparent;
+}
+
+.line {
+    position: absolute;
+    width: 0;
+    height: 10px;
+    background-color: red;
+}
+
+.underline {
+    position: absolute;
+    bottom: -30px;
+    left: -15px;
+    width: 125%;
+    height: 10px;
+    background-color: #fff;
+}
+
+
+
+
+input:focus {
+    outline: none;
+}
+
+input {
+    padding: 2px 85px 2px 0;
+}
